@@ -7,7 +7,7 @@ do
 		local s_Options = HttpOptions({}, 10)
 		s_Options.verifyCertificate = false
 
-		local s_Response = Net:GetHTTP("https://raw.githubusercontent.com/spatieman/pixelmod_light/main/mod.json", s_Options);
+		local s_Response = Net:GetHTTP("https://raw.githubusercontent.com/spatieman/VU-Pixelmod_light/main/mod.json", s_Options);
 
 		if not s_Response or s_Response.status ~= 200 then
 			return
@@ -22,7 +22,7 @@ do
 
 	if s_Version ~= m_ModVersion then
 		print("*******************************************************************************************************");
-		print("** Pixelmod light version seems to be out of date! Please visit https://github.com/spatieman/pixelmod_light/tree/main **");
+		print("** Pixelmod light version seems to be out of date! Please visit https://github.com/spatieman/VU-Pixelmod_light **");
 		print('Changed Version on github is (' .. s_Version .. ') - Local version:(' .. m_ModVersion .. ') - Reason for update: (' .. s_Reason .. ')')
 		print("*******************************************************************************************************");
 	else
