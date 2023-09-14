@@ -11,10 +11,11 @@
 
 # Welcome to Version 1.0.2
 # Revamped Update: 14-09-2023
-- Fully over worked version from pixelmod2
+- Fully overworked version from pixelmod2
 - All pimped explosion stuff has be removed.
-- Limited ammo you can carry (still more as default)
-- Limited gadgets content (C4/Mines/RPG etc,etc)
+- Limited weapon ammo you can carry (still more as default)
+- Increased clip size
+- Limited gadgets ammo content (C4/Mines/RPG etc,etc)
 - merged recon mod in pixelmod light
 - added kinky engineer stuff, now u can use stinger and javelin at the same time !
 - added Claymore as 1st gadget, ammo bag, or claymore
