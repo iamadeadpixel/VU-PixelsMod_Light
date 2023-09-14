@@ -1,0 +1,12 @@
+{
+    "Name": "Iamadeadpixel's Mod LIGHT version",
+    "Description": "pimped gadgets for Battlefield 3: Venice Unleashed",
+    "Version": "1.0.2",
+    "Reason": "minor fixes",
+    "Authors": [ "iamadeadpixel" ],
+    "HasVeniceEXT": true,
+    "Dependencies": {
+        "veniceext": "^1.0.0"
+    },
+    "Tags": [ "pixelmod-light" ]
+}
