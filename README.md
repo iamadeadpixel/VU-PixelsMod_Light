@@ -9,6 +9,10 @@
 ## iamadeadpixel
 - Make things go more fun and kinky
 
+# Heavy modded version
+- Contains all the nasty extras
+- https://github.com/spatieman/VU-PixelsMod_FlashHit
+
 # Welcome to Version 1.0.2
 # Revamped Update: 14-09-2023
 - Fully overworked version from pixelmod2
