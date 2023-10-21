@@ -152,7 +152,7 @@ MOD.Javelin = {
 			releaseOnNewTargetTime = 0.5, -- 0.5
 			rayLength = 750.0, -- 500.0
 			lockOnVisibleTargetsOnly = true, -- false
-			acceptanceAngle = 2.0, -- 5.0
+--			acceptanceAngle = 2.0, -- 5.0
 			lockOnEmptyVehicles = false -- true
 		},
 		-- FiringFunctionData
@@ -200,7 +200,7 @@ MOD.Igla = {
 			releaseOnNewTargetTime = 0.5, -- 1.5
 			rayLength = 750.0, -- 400.0
 			lockOnVisibleTargetsOnly = true, -- true
-			acceptanceAngle = 2.0, -- 5.0
+--			acceptanceAngle = 2.0, -- 5.0
 			lockOnEmptyVehicles = false -- false
 		},
 		-- FiringFunctionData
@@ -229,7 +229,7 @@ MOD.Stinger = {
 			releaseOnNewTargetTime = 0.5, -- 1.5
 			rayLength = 750.0, -- 400.0
 			lockOnVisibleTargetsOnly = true, -- true
-			acceptanceAngle = 2.0, -- 10.0
+--			acceptanceAngle = 2.0, -- 10.0
 			lockOnEmptyVehicles = false -- false
 		},
 		-- FiringFunctionData
