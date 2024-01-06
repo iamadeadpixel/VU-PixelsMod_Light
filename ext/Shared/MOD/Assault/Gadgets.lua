@@ -83,9 +83,10 @@ MOD.M320_HE = {
 	["D37476C2-3A86-11E0-BC25-D51252D5A427"] = {
 		-- BulletEntityData
 		["CEC6D381-72DE-B7D4-E998-0D566E0575C6"] = {
-			gravity = 0, -- -7.2
-			timeToLive = 2.5, -- 0.0
-			initialSpeed = 900.0 -- 350.0
+			gravity = -0.5, -- -7.2
+			timeToLive = 3.0, -- 0.0
+			initialSpeed = 900.0, -- 350.0
+			detonateOnTimeout = true -- False
 		}
 	}
 }
@@ -110,7 +111,8 @@ MOD.M320_LVG = {
 		["393E4094-C2A2-4DF2-B977-F82E6974A8CB"] = {
 			gravity = -0, -- -15.0
 			timeToLive = 3, -- 2.5
-			initialSpeed = 900.0 -- 350.0
+			initialSpeed = 900.0, -- 350.0
+			detonateOnTimeout = true -- False
 		}
 	}
 }
