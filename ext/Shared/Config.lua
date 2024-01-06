@@ -17,8 +17,9 @@ Config = {
 		},
 
 		Assault = {
-			-- tweak M320 & M26
-			Gadgets = true,
+			-- tweak M320 & M26 (ONLY ONE CAN BE ACTIVE)
+			Gadgets = false, --  (ONLY ONE CAN BE ACTIVE)
+			Gadgets_kinky = true, --  (ONLY ONE CAN BE ACTIVE)
 			-- tweak all assault rifles
 			Weapons = true
 		},

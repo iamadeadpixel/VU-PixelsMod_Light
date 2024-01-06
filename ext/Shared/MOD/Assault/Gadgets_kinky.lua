@@ -70,12 +70,12 @@ MOD.M320_HE = {
 		-- FiringFunctionData
 		["99CE0D31-86A1-4478-9B9E-CC1EFD072AB9"] = {
 			ammo = {
-				magazineCapacity = 1, -- 1
+				magazineCapacity = 3, -- 1
 				numberOfMagazines = 12 -- 4
 			},
 			shot = {
-				numberOfBulletsPerShell = 5, -- 1
-				numberOfBulletsPerShot = 2 -- 1
+				numberOfBulletsPerShell = 15, -- 1
+				numberOfBulletsPerShot = 5 -- 1
 			}
 		}
 	},
@@ -84,7 +84,7 @@ MOD.M320_HE = {
 		-- BulletEntityData
 		["CEC6D381-72DE-B7D4-E998-0D566E0575C6"] = {
 			gravity = 0, -- -7.2
-			timeToLive = 2.5, -- 0.0
+			timeToLive = 1.5, -- 0.0
 			initialSpeed = 900.0 -- 350.0
 		}
 	}
@@ -95,12 +95,12 @@ MOD.M320_LVG = {
 		-- FiringFunctionData
 		["B287AFC7-2597-4C5A-A2B8-D0F8D43018C4"] = {
 			ammo = {
-				magazineCapacity = 1, -- 1
+				magazineCapacity = 3, -- 1
 				numberOfMagazines = 12 -- 4
 			},
 			shot = {
-				numberOfBulletsPerShell = 5, -- 1
-				numberOfBulletsPerShot = 2 -- 1
+				numberOfBulletsPerShell = 15, -- 1
+				numberOfBulletsPerShot = 5 -- 1
 			}
 		}
 	},
@@ -109,7 +109,7 @@ MOD.M320_LVG = {
 		-- GrenadeEntityData
 		["393E4094-C2A2-4DF2-B977-F82E6974A8CB"] = {
 			gravity = -0, -- -15.0
-			timeToLive = 3, -- 2.5
+			timeToLive = 2, -- 2.5
 			initialSpeed = 900.0 -- 350.0
 		}
 	}
@@ -120,12 +120,12 @@ MOD.M320_SHG = {
 		-- FiringFunctionData
 		["B95BDF28-FC1C-4509-B7B6-597153E63A25"] = {
 			ammo = {
-				magazineCapacity = 1, -- 1
+				magazineCapacity = 3, -- 1
 				numberOfMagazines = 12 -- 4
 			},
 			shot = {
-				numberOfBulletsPerShell = 10, -- 12
-				numberOfBulletsPerShot = 2 -- 1
+				numberOfBulletsPerShell = 15, -- 12
+				numberOfBulletsPerShot = 5 -- 1
 			}
 		}
 	}
@@ -141,8 +141,8 @@ MOD.M320_SMK = {
 				numberOfMagazines = 12 -- 4
 			},
 			shot = {
-				numberOfBulletsPerShell = 5, -- 1
-				numberOfBulletsPerShot = 5 -- 1
+				numberOfBulletsPerShell = 15, -- 1
+				numberOfBulletsPerShot = 15 -- 1
 			},
 			fireLogic = {
 				reloadTime = 2.5 -- 2.9
@@ -172,7 +172,7 @@ MOD.M320_SMK = {
 		-- Entity data: BulletEntityData
 		["30AD5145-04AD-4C97-8D1B-B4FE0E1AD6F5"] = {
 			gravity = -1, -- -7
-			timeToLive = 5, -- 0
+			timeToLive = 7, -- 0
 			initialSpeed = 900.0, -- 350.0
 			detonateOnTimeout = true -- False
 		},
