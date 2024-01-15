@@ -69,12 +69,37 @@ MOD.M320_HE = {
 	["D99AA0F1-2694-40C8-91EB-5235FFEBAC71"] = {
 		-- FiringFunctionData
 		["99CE0D31-86A1-4478-9B9E-CC1EFD072AB9"] = {
+
+			weaponDispersion = {
+				standDispersion = {
+					minAngle = 5.0, -- 0.0
+					maxAngle = 15.0, -- 0.0
+					increasePerShot = 0.8 -- 0.0
+				},
+				crouchDispersion = {
+					minAngle = 5.0, -- 0.0
+					maxAngle = 15.0, -- 0.0
+					increasePerShot = 0.8 -- 0.0
+				},
+				proneDispersion = {
+					minAngle = 5.0, -- 0.0
+					maxAngle = 15.0, -- 0.0
+					increasePerShot = 0.8 -- 0.0 
+				}
+				},
+
+
+			fireLogic = {
+		rateOfFire = 180, -- Default = 250.0
+		rateOfFireForBurst = 250 -- Default =  550.0
+			},
+
 			ammo = {
-				magazineCapacity = 3, -- 1
+				magazineCapacity = 2, -- 1
 				numberOfMagazines = 24 -- 4
 			},
 			shot = {
-				numberOfBulletsPerShell = 15, -- 1
+				numberOfBulletsPerShell = 5, -- 1
 				numberOfBulletsPerShot = 5 -- 1
 			}
 		}
@@ -95,12 +120,44 @@ MOD.M320_LVG = {
 	["0782833F-E28E-417F-8D25-350D504EBEAA"] = {
 		-- FiringFunctionData
 		["B287AFC7-2597-4C5A-A2B8-D0F8D43018C4"] = {
-			ammo = {
-				magazineCapacity = 3, -- 1
-				numberOfMagazines = 12 -- 4
+
+			weaponDispersion = {
+				standDispersion = {
+					minAngle = 5.0, -- 0.0
+					maxAngle = 15.0, -- 0.0
+					increasePerShot = 0.8 -- 0.0
+				},
+				crouchDispersion = {
+					minAngle = 5.0, -- 0.0
+					maxAngle = 15.0, -- 0.0
+					increasePerShot = 0.8 -- 0.0
+				},
+				proneDispersion = {
+					minAngle = 5.0, -- 0.0
+					maxAngle = 15.0, -- 0.0
+					increasePerShot = 0.8 -- 0.0 
+				}
+				},
+
+
+			fireLogic = {
+		rateOfFire = 180, -- Default = 250.0
+		rateOfFireForBurst = 250 -- Default =  550.0
 			},
+
+			
+			ammo = {
+				magazineCapacity = 2, -- 1
+				numberOfMagazines = 24 -- 4
+			},
+
+			fireLogic = {
+		rateOfFire = 180, -- Default = 250.0
+		rateOfFireForBurst = 250 -- Default =  550.0
+			},
+
 			shot = {
-				numberOfBulletsPerShell = 15, -- 1
+				numberOfBulletsPerShell = 5, -- 1
 				numberOfBulletsPerShot = 5 -- 1
 			}
 		}
@@ -110,7 +167,7 @@ MOD.M320_LVG = {
 		-- GrenadeEntityData
 		["393E4094-C2A2-4DF2-B977-F82E6974A8CB"] = {
 			gravity = -1, -- -15.0
-			timeToLive = 5, -- 2.5
+			timeToLive = 3, -- 2.5
 			initialSpeed = 900.0, -- 350.0
 			detonateOnTimeout = true -- False
 		}
@@ -121,12 +178,37 @@ MOD.M320_SHG = {
 	["075BF02D-46CF-4C0E-860E-69A6BE9FD6E5"] = {
 		-- FiringFunctionData
 		["B95BDF28-FC1C-4509-B7B6-597153E63A25"] = {
+
+			weaponDispersion = {
+				standDispersion = {
+					minAngle = 5.0, -- 0.0
+					maxAngle = 15.0, -- 0.0
+					increasePerShot = 0.8 -- 0.0
+				},
+				crouchDispersion = {
+					minAngle = 5.0, -- 0.0
+					maxAngle = 15.0, -- 0.0
+					increasePerShot = 0.8 -- 0.0
+				},
+				proneDispersion = {
+					minAngle = 5.0, -- 0.0
+					maxAngle = 15.0, -- 0.0
+					increasePerShot = 0.8 -- 0.0 
+				}
+				},
+
+
+			fireLogic = {
+		rateOfFire = 180, -- Default = 250.0
+		rateOfFireForBurst = 250 -- Default =  550.0
+			},
+
 			ammo = {
-				magazineCapacity = 3, -- 1
-				numberOfMagazines = 12 -- 4
+				magazineCapacity = 2, -- 1
+				numberOfMagazines = 24 -- 4
 			},
 			shot = {
-				numberOfBulletsPerShell = 15, -- 12
+				numberOfBulletsPerShell = 25, -- 12
 				numberOfBulletsPerShot = 5 -- 1
 			}
 		}

@@ -9,12 +9,15 @@
 ## iamadeadpixel
 - Make things go more fun and kinky
 
-# Welcome to Version 1.0.3
-# Update: 06-01-2024
+# Welcome to Version 1.0.4
+# Update: 15-01-2024
+- Revamped M320 section, was a bit overkill on the kinky version
+
+# Update: 06-01-2024 - 1.0.3
 - Removed the range lock from Javelin - Stinger - Igla
 - Added new assault gadget group, but more beefed
 
-# Revamped Update: 14-09-2023
+# Revamped Update: 14-09-2023 - 1.0.2
 - Fully over worked version from pixelmod2
 - All pimped explosion stuff has be removed.
 - Limited ammo you can carry (still more as default)
