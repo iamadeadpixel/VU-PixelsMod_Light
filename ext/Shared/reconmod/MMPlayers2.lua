@@ -19,7 +19,10 @@ if SharedUtils:GetCurrentGameMode() == "ConquestLarge0" or SharedUtils:GetCurren
 				ID_M_SOLDIER_SECONDARY = {},
 				ID_M_SOLDIER_GADGET1 = {},
 				ID_WEAPON_CATEGORYGADGET1 = {},
-				ID_M_SOLDIER_GADGET2 = {},
+				ID_M_SOLDIER_GADGET2 = {
+					'Weapons/Gadgets/Medicbag/U_Medkit'
+
+			},
 				GRENADE = {},
 				KNIFE = {}
 			},
@@ -65,7 +68,10 @@ if SharedUtils:GetCurrentGameMode() == "ConquestLarge0" or SharedUtils:GetCurren
 				ID_M_SOLDIER_SECONDARY = {},
 				ID_M_SOLDIER_GADGET1 = {},
 				ID_WEAPON_CATEGORYGADGET1 = {},
-				ID_M_SOLDIER_GADGET2 = {},
+				ID_M_SOLDIER_GADGET2 = {
+					'Weapons/Gadgets/Medicbag/U_Medkit'
+
+			},
 				GRENADE = {},
 				KNIFE = {}
 			},

@@ -1,8 +1,8 @@
 {
     "Name": "Iamadeadpixel's Mod LIGHT version",
     "Description": "pimped gadgets for Battlefield 3: Venice Unleashed",
-    "Version": "1.0.4",
-    "Reason": "Beefed - Re-Tweaks",
+    "Version": "1.0.5",
+    "Reason": "Beefed the medic",
     "Authors": [ "iamadeadpixel" ],
     "HasVeniceEXT": true,
     "Dependencies": {
