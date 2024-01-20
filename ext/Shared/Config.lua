@@ -45,8 +45,9 @@ Config = {
 			Weapons = true
 		},
 
-		-- tweak all type of gadgets
-		Gadgets = true,
+		-- tweak all type of gadgets - Only ONE can be active 
+		Gadgets_kinky = true,
+		Gadgets = false,
 
 		Pistols = {
 			-- tweak all handguns/pistols

@@ -9,8 +9,10 @@
 ## iamadeadpixel
 - Make things go more fun and kinky
 
-# Welcome to Version 1.0.5
-# Update: 16-01-2024
+# Welcome to Version 1.0.6
+- Engineer is now more kinky
+
+# Update: 16-01-2024 - 1.0.6
 - Medic is now a kinky..
 
 # Update: 15-01-2024 - 1.0.4
