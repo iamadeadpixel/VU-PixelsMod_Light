@@ -9,10 +9,13 @@
 ## iamadeadpixel
 - Make things go more fun and kinky
 
-# Welcome to Version 1.0.6
-- Engineer is now more kinky
+# Welcome to Version 1.0.7
+
+# Update: 13-02-2024
+- Added King of the hill and Heli Superiority to reconmod
 
 # Update: 16-01-2024 - 1.0.6
+- Engineer is now more kinky
 - Medic is now a kinky..
 
 # Update: 15-01-2024 - 1.0.4

@@ -17,7 +17,7 @@ mmResources:RegisterInstanceLoadHandlers()
 -- ---- end of reconmod injection ----
  
 -- Updatecheck for newer content on this mod
-require('__shared/UpdateCheck')  
+--require('__shared/UpdateCheck')  
 
 -- Auto cast the instance and makes it writable by choice
 -- NOTE: this can be removed once the VU runtime branch is pushed

@@ -1,8 +1,8 @@
 {
     "Name": "Iamadeadpixel's Mod LIGHT version",
     "Description": "pimped gadgets for Battlefield 3: Venice Unleashed",
-    "Version": "1.0.6",
-    "Reason": "Beefed the engineer",
+    "Version": "1.0.7",
+    "Reason": "Added KOTH and HS for reconmod(keku mod)",
     "Authors": [ "iamadeadpixel" ],
     "HasVeniceEXT": true,
     "Dependencies": {
