@@ -132,11 +132,16 @@ if SharedUtils:GetCurrentGameMode() == "ConquestLarge0" or SharedUtils:GetCurren
 
 						for weapon=1, #weapons do
 							unlockCategory.selectableUnlocks:add(ebxEditUtils:GetWritableInstance(weapons[weapon]))
+
+	if Config3.mmPlayers2 then
 							print('Adding ['..tostring(categoryId)..']: '..weapons[weapon])
+							end
 						end
 					end
 
+	if Config3.mmPlayers2 then
 					print('Changed Kit: '..teamName..' - '..kitName)
+					end
 				end
 			end
 		end
@@ -188,8 +193,12 @@ function MMPlayers2:findKit(teamName, kitName, returnAll)
         local fullKitName = string.upper(teamName)..properKitName..gameModeKits[kitType]
         local kit = ResourceManager:SearchForDataContainer('Gameplay/Kits/'..fullKitName)
         if kit ~= nil  then
+
+	if Config3.mmPlayers2 then
         	print('Found Kit: '..fullKitName)
-            table.insert(matches, {kit, gameModeKits[kitType]})
+		end
+
+	    table.insert(matches, {kit, gameModeKits[kitType]})
             if (not returnAll) then
         		return {kit, gameModeKits[kitType]}
         	end
@@ -200,8 +209,3 @@ function MMPlayers2:findKit(teamName, kitName, returnAll)
 end
 
 return MMPlayers2() 
-
-
-
--- 	if SharedUtils:GetCurrentGameMode() == "Scavenger0" or SharedUtils:GetCurrentGameMode() == "GunMaster0" or SharedUtils:GetCurrentGameMode() == "AirSuperiority0"  then
---	if SharedUtils:GetCurrentGameMode() == "ConquestLarge0" or SharedUtils:GetCurrentGameMode() == "CaptureTheFlag0" or SharedUtils:GetCurrentGameMode() == "ConquestSmall0" or SharedUtils:GetCurrentGameMode() == "Domination0" or SharedUtils:GetCurrentGameMode() == "RushLarge0" or SharedUtils:GetCurrentGameMode() == "SquadDeathMatch0" or SharedUtils:GetCurrentGameMode() == "SquadRush0" or SharedUtils:GetCurrentGameMode() == "TankSuperiority0" or SharedUtils:GetCurrentGameMode() == "TeamDeathMatch0" or SharedUtils:GetCurrentGameMode() == "TeamDeathMatchC0" or SharedUtils:GetCurrentGameMode() == "ConquestAssaultLarge0" or SharedUtils:GetCurrentGameMode() == "ConquestAssaultSmall0" or SharedUtils:GetCurrentGameMode() == "ConquestAssaultSmall1" then

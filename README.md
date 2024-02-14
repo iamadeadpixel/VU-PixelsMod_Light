@@ -9,7 +9,11 @@
 ## iamadeadpixel
 - Make things go more fun and kinky
 
-# Welcome to Version 1.0.7
+# Welcome to Version 1.0.8
+# Update: 14-02-2024
+- Added the option to enable or disable console spam for weapon load messages and the reconmod spam.
+- check config2.lua and config3.lua for your own presets.
+- on default all are enabled.
 
 # Update: 13-02-2024
 - Added King of the hill and Heli Superiority to reconmod

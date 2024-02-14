@@ -1,8 +1,8 @@
 {
     "Name": "Iamadeadpixel's Mod LIGHT version",
     "Description": "pimped gadgets for Battlefield 3: Venice Unleashed",
-    "Version": "1.0.7",
-    "Reason": "Added KOTH and HS for reconmod(keku mod)",
+    "Version": "1.0.8",
+    "Reason": "Able to turn off ,or on, the console spam for weapon loadout and the reconmod.",
     "Authors": [ "iamadeadpixel" ],
     "HasVeniceEXT": true,
     "Dependencies": {

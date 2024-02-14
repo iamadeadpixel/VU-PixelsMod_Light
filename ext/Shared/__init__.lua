@@ -1,3 +1,8 @@
+require("__shared/Config2") -- Able to turn console spam stuff on or off
+require("__shared/reconmod/Config3") -- Able to turn console spam stuff on or off
+
+
+
 -- injecting the pimped recon mod stuff --
 -- global funcs and utils
 Utils = require('__shared/reconmod/Utils')
@@ -17,7 +22,7 @@ mmResources:RegisterInstanceLoadHandlers()
 -- ---- end of reconmod injection ----
  
 -- Updatecheck for newer content on this mod
---require('__shared/UpdateCheck')  
+require('__shared/UpdateCheck')  
 
 -- Auto cast the instance and makes it writable by choice
 -- NOTE: this can be removed once the VU runtime branch is pushed
@@ -73,7 +78,10 @@ Events:Subscribe('Level:LoadResources', function(p_LevelName, p_GameMode, p_IsDe
 	-- let the magic start
 	for l_Name, l_Partitions in pairs(MOD) do
 		if Config.ByName[l_Name] then
+
+	if Config2.pixelmodspam then
 			print(string.format("Modifying %s", l_Name))
+			end
 
 			for l_PartitionGuid, l_Instances in pairs(l_Partitions) do
 				ResourceManager:RegisterPartitionLoadHandlerOnce(Guid(l_PartitionGuid), l_Instances, _PartitionLoaded)
@@ -106,7 +114,10 @@ function LiveUpdateAll()
 
 	for l_Name, l_Partitions in pairs(MOD) do
 		if Config.ByName[l_Name] then
+
+	if Config2.pixelmodspam then
 			print(string.format("Modifying %s", l_Name))
+			end
 
 			for l_PartitionGuid, l_Instances in pairs(l_Partitions) do
 				local s_Partition = ResourceManager:FindDatabasePartition(Guid(l_PartitionGuid))
@@ -128,4 +139,6 @@ or SharedUtils:IsClientModule() and SharedUtils:GetLevelName() ~= "Levels/Web_Lo
 	LiveUpdateAll()
 end
 
+	if Config2.LevelPrint then
 require("__shared/LoadingLevelPrint")
+	end

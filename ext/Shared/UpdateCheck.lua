@@ -1,3 +1,4 @@
+	if Config2.updatecheck then
 do
 	local m_ModVersion = require('__shared/version')
 	-- Object in mod.json for Reason: what last changes you made
@@ -32,3 +33,5 @@ do
 		print("************************************************************************");
 	end
 end
+
+end --
