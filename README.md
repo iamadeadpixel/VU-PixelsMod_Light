@@ -9,7 +9,10 @@
 ## iamadeadpixel
 - Make things go more fun and kinky
 
-# Welcome to Version 1.0.8
+# Welcome to Version 1.0.9
+# Update: 17-02-2024
+- Added a option in config3.lua (reconmod) to disabled the "enhancement", map reload is mandatory !
+
 # Update: 14-02-2024
 - Added the option to enable or disable console spam for weapon load messages and the reconmod spam.
 - check config2.lua and config3.lua for your own presets.

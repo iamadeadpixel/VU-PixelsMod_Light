@@ -1,4 +1,5 @@
 class "MMPlayers2"
+	if Config3.reconmod then
 
 function MMPlayers2:__init()
 	Events:Subscribe('Level:Loaded', self, self.onLevelLoaded)
@@ -207,5 +208,7 @@ function MMPlayers2:findKit(teamName, kitName, returnAll)
 
     return matches
 end
+end -- statement for disabling the mod it self
 
 return MMPlayers2() 
+

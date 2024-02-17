@@ -8,13 +8,13 @@ MOD.PlayerMovement = {
 		},
 		-- CharacterStatePoseInfo (Stand)
 		["69A866A2-DF7C-4BAD-B55F-99536F2551F6"] = {
-			velocity = 5.0, -- 4.0
-			sprintMultiplier = 2.0 -- 1.625
+			velocity = 5.0, -- 4.0 5
+			sprintMultiplier = 2.0 -- 1.625 2
 		},
 		-- CharacterStatePoseInfo (Stand Air)
 		["DF7475F9-216E-48C3-AED1-5483EFA3BB15"] = {
 			velocity = 6.0, -- 6.0
-			sprintMultiplier = 2.0 -- 1.5
+			sprintMultiplier = 2.0 -- 1.5 2
 		},
 		-- CharacterStatePoseInfo (Swimming)
 		["C3755191-6B9F-4B88-8677-59488AFC7530"] = {
